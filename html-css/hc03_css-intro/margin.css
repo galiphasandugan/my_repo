@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: bisque;
+}
+.div{
+    background-color: blueviolet;
+    margin-top: 10px;
+}
