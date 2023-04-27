@@ -1,0 +1,35 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.text-style {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 19px;
+  font-style: italic;
+  font-variant: normal;
+}
+.text{
+    text-decoration: line-through;
+    text-transform: underline;
+    text-indent: 20px;
+}
+.transformation{
+    color: blueviolet;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    
+}
+.spacing{
+color: yellowgreen;
+letter-spacing: 2px;
+word-spacing: 5px; 
+/* between space lines */
+line-height: 1.4;
+}
+.indent{
+    text-indent: 30px;
+}
+.direct{
+    text-align: right;
+    direction: rtl;
+}

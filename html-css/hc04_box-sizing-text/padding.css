@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    /* text-transform: lowercase;
+    text-indent: 120px; */
+    letter-spacing: 2px;
+}
+.container{
+    text-align: center;
+    background-color: green;
+}
+.section{
+    background-color: red;
+    margin: 30px;
+
+}
+.div{
+    /* background-color: aqua; */
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* line-height: 2; */
+    /* text-align: center; */
+}
+p{
+    /* line-height: 2; */
+    direction: initial ;
+    word-spacing: 10px;
+    /* text-shadow: 5px 1px blue; */
+}
+.section-2{
+    background-color: blue;
+
+}

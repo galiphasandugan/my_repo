@@ -1,0 +1,26 @@
+/* ! Universal Selector */
+/* *tüm elementleri secer */
+* {
+    margin: 0;
+    color: #123456;
+    color: #bebe;
+    color: #ece;
+}
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: purple;
+  font-weight: 800;
+  background-color: aqua;
+}
+.images{
+    width: 400px;
+    border-color: red;
+    border-width: 8px;
+    border-style: double;
+    border-style: solid;
+    border-style: inset;
+    border: 7px inset #bebe;
+}
