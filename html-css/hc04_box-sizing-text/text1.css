@@ -1,0 +1,58 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.text-style{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px; 
+    /* ! default value 16 px of font size element */
+    font-weight: lighter;
+    font-style: italic;
+    /* font-variant: small-caps; */
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-indent: 120px;
+    letter-spacing: 5px;
+    word-spacing: 25px;
+    line-height: 1.5;
+    /* * default number 1  */
+    direction: rtl;
+}
+ /* p span{
+    color: red;
+} */
+#my-body .text-style span{
+    color: red;
+}
+.decotation{
+    text-decoration: overline;
+}
+.transformation{
+    color: blueviolet;
+    text-transform: capitalize;
+
+}
+.spacing{
+    color: yellowgreen;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 1.9; 
+    /* !satır yüksekliği */
+}
+.indent{
+    text-indent: 30px;
+}
+.direct{
+    /* text-align: right; */
+    direction: rtl;
+}
+.text-shadow{
+    text-shadow: 30px 25px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.box-shadow{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
