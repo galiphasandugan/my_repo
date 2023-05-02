@@ -1,4 +1,8 @@
-ul {
+body {
+  font-family: "Bruno Ace SC", cursive;
+}
+ul.languages {
+  font-weight: 700;
   list-style-type: circle;
   list-style-type: square;
   list-style-type: none;
@@ -7,4 +11,63 @@ ul {
   padding: 0;
   padding: 20px;
   list-style-image: url("../img/house-solid.svg");
+}
+h2 {
+  color: blueviolet;
+}
+h2 i {
+  font-size: 40px;
+}
+.fa-solid {
+  color: red;
+}
+ul.pseudo li:first-child {
+  color: blue;
+}
+ul.pseudo li:last-child {
+  color: red;
+}
+ul.pseudo li:nth-child(5) {
+  color: purple;
+}
+ul.pseudo li:nth-child(odd) {
+  color: blueviolet;
+}
+ul.pseudo li:nth-child(even) {
+  color: green;
+  font-weight: 700;
+  background-color: lightgrey;
+}
+ul.pseudo li:first-child:hover {
+  opacity: 0.5;
+}
+ul.pseudo li:active {
+  background-color: green;
+}
+input:focus {
+  background-color: tomato;
+  color: white;
+  border: 4px dashed white;
+  outline: none;
+}
+nav.link a:link {
+  color: brown;
+}
+nav.link a:visited {
+  color: yellow;
+}
+nav.link a:active {
+  color: magenta;
+}
+nav.link a:hover {
+  color: black;
+}
+.p-elements::first-line {
+  color: red;
+}
+.p-elements::first-letter {
+  color: brown;
+}
+ul.before-after li:before {
+  content: "";
 }
