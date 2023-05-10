@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+header {
+  background-color: lightpink;
+  padding: 3rem;
+  font-size: 2rem;
+}
+nav.sticky {
+  background-color: lightyellow;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+div.fixed {
+  background-color: limegreen;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2.3rem;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

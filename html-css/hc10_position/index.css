@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+
+  border: 1px soldi royalblue;
+}
+.static {
+  background-color: hotpink;
+  position: static;
+  z-index: 1;
+}
+.relative-1 {
+  background-color: sandybrown;
+  position: relative;
+  top: 0rem;
+  left: 10rem;
+  /* right: 5rem;
+  bottom: 3rem; */
+  z-index: 0;
+}
+.relative-2 {
+  background-color: indigo;
+  position: relative;
+  top: -5rem;
+  left: 15rem;
+}
+.absolute {
+  position: absolute;
+  background-color: khaki;
+  width: 3rem;
+  height: 3rem;
+  font-size: 0.4 rem;
+}
+.top-left {
+  top: 0;
+  left: 0;
+}
+.top-right {
+  top: 0;
+  right: 0;
+}
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ! z index 'in default değeri sıfırdır */

@@ -83,29 +83,30 @@ console.log("****** CONDITIONS *******");
 // // console.log("sonuc:", yas);
 
 // ! ternary ile yapalım....
-const yas = Number(prompt("yası giriniz"));
+// const yas = Number(prompt("yası giriniz"));
 
 // yas > 0 && yas < 4 ? console.log("bebek") : ;
 // yas > 5 && yas < 15 ? console.log("cocuk") : );
 // yas > 15 && yas < 40 ? console.log("genc") : console.log("genc değil");
 // yas > 40 && yas < 150 ? console.log("yaslı") : console.log("yaslı değil");
+const result =
+//   yas < 4
+//     ? "bebek"
+//     : yas < 15
+//     ? "cocuk"
+//     : yas < 40
+//     ? "genc"
+//     : yas < 150
+//     ? "yaslı"
+//     : "yas bulunamadı";
+// console.log(result);
 
-yas < 4
-  ? "bebek"
-  : yas < 15
-  ? "cocuk"
-  : yas < 40
-  ? "genc"
-  : yas < 150
-  ? "yaslı"
-  : "yas bulunamadı";
-
-yas < 4
-  ? console.log("bebek")
-  : yas < 15
-  ? console.log("cocuk")
-  : yas < 40
-  ? console.log("genc")
-  : yas < 150
-  ? console.log("yaslı")
-  : "yas bulunamadı";
+// yas < 4
+//   ? console.log("bebek")
+//   : yas < 15
+//   ? console.log("cocuk")
+//   : yas < 40
+//   ? console.log("genc")
+//   : yas < 150
+//   ? console.log("yaslı")
+//   : "yas bulunamadı";
