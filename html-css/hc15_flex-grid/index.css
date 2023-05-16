@@ -1,16 +1,43 @@
-*{
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-ul.nav{
+
+ul.nav {
   background-color: cadetblue;
   list-style-type: none;
   padding: 1rem;
+  height: 15rem;
+
+  /*? Yazilari hizalamak icin */
   text-align: center;
-  DİSPLA
+
+  /*? Flex ozellgini aktif hale getirdik */
+  display: flex;
+
+  /*! Elemanların dizilis yonu : column, row, row-reverse, column-reverse*/
+  flex-direction: row; /*? defaut: row*/
+
+  /*? Satirlar arasi bosluk, ilk verilen satirlar arasi, 2. verilen sutunlar arasi bsoluktur */
+  gap: 1rem;
+
+  /*? sikistirma veya alt satira gecebilme:flex-wrap: wrap, nowrap, wrap-reverse*/
+  flex-wrap: wrap;
+
+  /*! Yatay Hizalama: justify-content
+  /** flex-start, flex-end,center, space-around,space-evenly, space-between*/
+  justify-content: center;
+
+  /*! Dikey Hizalama => align-items
+  /**  flex-start, flex-end, center, stretch,baseline */
+  /* align-items: flex-start; */
+
+  /*! Cok satirli verilerin dikeyde hizalanmasi icin kullanilir*/
+  align-content: flex-start;
 }
-ul.nav li{
+
+ul.nav li {
   background-color: chocolate;
   width: 7rem;
   padding: 0.5rem;
