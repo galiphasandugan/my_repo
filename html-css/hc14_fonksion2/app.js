@@ -49,3 +49,27 @@
 
 
 // console.log(hesapMakinesi(n1,n2,operator));
+
+// const fakto = (n) =>{
+//     let result =1
+//   for(let i= n; i>1; i--){
+//       result *= i
+//   }
+//   return result
+// }
+
+// const number = +prompt("n")
+
+
+// console.log(`fakto (${number})=${fakto(number)}`);
+
+// ! SCOPE KAVRAMI
+
+
+const myYear = (year) => 2023- year
+
+console.log(myYear(1990));
+
+const result = new Date().get()
+console.log(result);
+
