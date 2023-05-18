@@ -1,0 +1,11 @@
+root:{
+    --white: #ffd;
+    --green: #111;
+    --favori: #13678A;
+    --white: #ffd;
+    --black: hsla(238, 94, 6, 1);
+    --green: hsla(180, 83, 24, 1);
+    --olive: hsla(72, 22, 67, 1);
+    --dark-yellow: hsla(39, 84, 53, 1);
+    --dark-range: hsla(15, 98, 38, 1);
+}
